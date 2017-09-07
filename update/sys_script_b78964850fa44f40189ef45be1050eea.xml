@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_pvi_hr_applicati_referrals</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_pvi_hr_applicati_referrals">statesCHANGESFROM1^statesCHANGESTO2^EQ<item endquery="false" field="states" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="1"/>
+            <item endquery="false" field="states" goto="false" newquery="false" operator="CHANGESTO" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>yi</p>]]></message>
+        <name>Start Interview Referrals</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord('x_pvi_hr_applicati_interview');
+	
+	gr.initialize();
+	gr.resource_requested_by = current.referred_for.requested_by.sys_id;
+	gr.referred_candidate_details = current.sys_id;
+	gr.selected_for = current.referred_for.sys_id;
+	gr.assignment_group="833d79cb0f3f3600189ef45be1050ee7";
+	gr.insert();
+	gs.addInfoMessage("Interview has been started for this referral, Interview number:"+ gr.number);
+	GlideSysAttachment.copy('x_pvi_hr_applicati_referrals', current.sys_id, 'x_pvi_hr_applicati_interview', gr.getUniqueValue());
+gr.update();
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mahendran.e</sys_created_by>
+        <sys_created_on>2017-08-11 04:22:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b78964850fa44f40189ef45be1050eea</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Start Interview Referrals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_script_b78964850fa44f40189ef45be1050eea</sys_update_name>
+        <sys_updated_by>mahendran.e</sys_updated_by>
+        <sys_updated_on>2017-08-11 04:39:43</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=b78964850fa44f40189ef45be1050eea"/>
+</record_update>

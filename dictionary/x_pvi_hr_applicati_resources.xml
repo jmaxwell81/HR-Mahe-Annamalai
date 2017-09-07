@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Resources Request form" max_length="40" name="x_pvi_hr_applicati_resources" sizeclass="22" type="collection">
+        <element label="Budget" max_length="20" name="budget" read_only="true" type="currency"/>
+        <element label="Certifications" max_length="40" name="certifications" read_only="true" type="boolean"/>
+        <element label="Contract Period" max_length="40" name="contract_period" type="string"/>
+        <element label="Dead Line" max_length="40" name="dead_line" read_only="true" type="glide_date"/>
+        <element label="Department" max_length="40" name="department" read_only="true" type="string"/>
+        <element label="Experience(in years)" max_length="40" name="experience_in_years" read_only="true" type="integer"/>
+        <element label="Functional Skills" max_length="4000" name="function_skills" read_only="true" reference="x_pvi_hr_applicati_function" type="glide_list"/>
+        <element label="Gender" max_length="40" name="gender" read_only="true" type="string"/>
+        <element label="German" max_length="40" name="german" read_only="true" type="boolean"/>
+        <element label="German Visa Type" max_length="40" name="german_visa" read_only="true" type="string"/>
+        <element active="false" label="H2A" max_length="40" name="h2a" type="boolean"/>
+        <element label="Internal Resourcing failed fulfilment" max_length="40" name="internal_resourcing_failed" type="boolean"/>
+        <element label="Job Type" max_length="40" name="job_type" read_only="true" type="string"/>
+        <element label="Name of the certification" max_length="40" name="name_of_the_certification" read_only="true" type="string"/>
+        <element label="Total number of vacancies" max_length="40" name="number_of_vacancies" read_only="true" type="integer"/>
+        <element label="Number of vacancies left" max_length="40" name="number_of_vacancies_left" read_only="true" type="integer"/>
+        <element label="Offshore" max_length="40" name="offshore" read_only="true" type="boolean"/>
+        <element label="Onsite" max_length="40" name="onsite" read_only="true" type="boolean"/>
+        <element label="Other Skills" max_length="2000" name="other_skills" read_only="true" type="string"/>
+        <element label="Passport" max_length="40" name="passport" read_only="true" type="boolean"/>
+        <element label="Passport Validity" max_length="40" name="passport_validity" read_only="true" type="glide_date"/>
+        <element label="Philippanies" max_length="40" name="philippanies" read_only="true" type="boolean"/>
+        <element label="Philippines" max_length="40" name="philippines" read_only="true" type="boolean"/>
+        <element label="Philippines Visa Type" max_length="40" name="philippines_visa_type" read_only="true" type="string"/>
+        <element label="Requested By" max_length="32" name="requested_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Required Certification" max_length="4000" name="required_certification" read_only="true" reference="x_pvi_hr_applicati_cerfications" type="glide_list"/>
+        <element label="Shift" max_length="40" name="shift" read_only="true" type="string"/>
+        <element label="Start External Resourcing" max_length="40" name="start_external_resourcing" type="boolean"/>
+        <element choice="3" default="0" label="States" max_length="40" name="states" read_only="true" type="choice">
+            <choice>
+                <element label="Waiting for Approval" sequence="0" value="0"/>
+                <element label="Hiring Manager Approved" sequence="1" value="1"/>
+                <element label="HR Manager Approved" sequence="2" value="2"/>
+                <element label="Country Manager Approved" sequence="3" value="3"/>
+                <element label="Completed" sequence="4" value="4"/>
+                <element label="Cancelled" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Technical Skills" max_length="4000" name="technical_skills" read_only="true" reference="x_pvi_hr_applicati_tech" type="glide_list"/>
+        <element label="US" max_length="40" name="us" read_only="true" type="boolean"/>
+        <element label="US Visa Type" max_length="40" name="us_visa_type" read_only="true" type="string"/>
+        <element label="Visa" max_length="40" name="visa" read_only="true" type="boolean"/>
+        <element label="Visa type" max_length="40" name="visa_type" read_only="true" type="string"/>
+        <element label="Visa Validity" max_length="40" name="visa_validity" read_only="true" type="glide_date"/>
+    </element>
+</database>

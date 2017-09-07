@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client" audit="true" extends="x_pvi_hr_applicati_resource" label="Talent Pools" max_length="40" name="x_pvi_hr_applicati_talent_pools" sizeclass="9" type="collection">
+        <element label="Contact Number" max_length="40" name="contact_number" type="phone_number_e164"/>
+        <element label="Email ID" max_length="100" name="email_id" type="email"/>
+        <element label="Functional Skills" max_length="4000" name="functional_skills" reference="x_pvi_hr_applicati_function" type="glide_list"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Passport" max_length="40" name="passport" type="boolean"/>
+        <element label="Project Done Before" max_length="40" name="project_done_before" type="boolean"/>
+        <element label="Referred By" max_length="32" name="referred_by" reference="sys_user" type="reference"/>
+        <element label="Referred For " max_length="32" name="referred_for" reference="x_pvi_hr_applicati_resources" type="reference"/>
+        <element label="Technical Skills" max_length="4000" name="technical_skills" reference="x_pvi_hr_applicati_tech" type="glide_list"/>
+        <element label="User Name" max_length="32" name="user_name" reference="sys_user" type="reference"/>
+        <element label="Visa" max_length="40" name="visa" type="boolean"/>
+    </element>
+</database>

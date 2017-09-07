@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>TEMPLATE2</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>set value</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>mahendran.e</sys_created_by>
+        <sys_created_on>2017-07-13 09:02:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1f335c3b0fff3a00da58715be1050e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE2</sys_name>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_template_1f335c3b0fff3a00da58715be1050e2f</sys_update_name>
+        <sys_updated_by>mahendran.e</sys_updated_by>
+        <sys_updated_on>2017-07-13 09:02:10</sys_updated_on>
+        <table>x_pvi_hr_applicati_resources</table>
+        <template>priority=2^comments=Resource Recruitment has been opened.^EQ</template>
+        <user display_value="Mahendran E">f07328710f773200189ef45be1050e5a</user>
+        <view/>
+    </sys_template>
+</record_update>

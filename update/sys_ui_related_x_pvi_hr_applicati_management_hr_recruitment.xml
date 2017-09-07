@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_pvi_hr_applicati_management" version="2" view="hr_recruitment">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Resource Management - HR Recruitment" name="x_pvi_hr_applicati_management" related_list="NULL" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">256bc98f0f7b7600da58715be1050ed3</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-07-11 05:09:20</sys_created_on>
+            <sys_id>ed6bc98f0f7b7600da58715be1050ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-07-11 05:09:20</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Resource Management - HR Recruitment</calculated_name>
+            <filter/>
+            <name>x_pvi_hr_applicati_management</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-07-11 05:09:20</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>256bc98f0f7b7600da58715be1050ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Resource Management - HR Recruitment</sys_name>
+            <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+            <sys_update_name>sys_ui_related_x_pvi_hr_applicati_management_hr_recruitment</sys_update_name>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-07-11 05:09:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="HR Recruitment" name="hr_recruitment">7bc7e9b20f373600da58715be1050e3b</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

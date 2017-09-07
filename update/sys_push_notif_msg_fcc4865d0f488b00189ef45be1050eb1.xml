@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>Interview ${number}</message_string>
+        <name>Interview calendar</name>
+        <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <push_message_content display_value="Generic Record Payload">4f9c2ec0d72102006b0f8ebc5e610327</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>annamalai.b</sys_created_by>
+        <sys_created_on>2017-07-18 09:07:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fcc4865d0f488b00189ef45be1050eb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interview calendar</sys_name>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_push_notif_msg_fcc4865d0f488b00189ef45be1050eb1</sys_update_name>
+        <sys_updated_by>annamalai.b</sys_updated_by>
+        <sys_updated_on>2017-07-18 09:07:23</sys_updated_on>
+        <table>x_pvi_hr_applicati_interview</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

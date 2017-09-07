@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="attachment_index" label="Certifications" max_length="40" name="x_pvi_hr_applicati_cerfications" type="collection">
+        <element display="true" label="Certificate Name" max_length="400" name="certificate_name" type="string"/>
+    </element>
+</database>

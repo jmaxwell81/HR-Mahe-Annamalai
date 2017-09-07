@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="task" relationship="0f56dd430ffb7600da58715be1050e14" sys_domain="global" table="x_pvi_hr_applicati_management" version="2" view="hr_recruitment">
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_pvi_hr_applicati_management</name>
+            <parent>task</parent>
+            <position/>
+            <relationship display_value="Available Employees">0f56dd430ffb7600da58715be1050e14</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-11 10:06:50</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab7f4a0b0f7f3600189ef45be1050eb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pvi_hr_applicati_management</sys_name>
+            <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+            <sys_update_name>sys_ui_list_task_0f56dd430ffb7600da58715be1050e14_hr_recruitment</sys_update_name>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-11 10:06:50</sys_updated_on>
+            <sys_user display_value="Annamalai B">b2d328310f773200189ef45be1050ede</sys_user>
+            <view display_value="HR Recruitment" name="hr_recruitment">7bc7e9b20f373600da58715be1050e3b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

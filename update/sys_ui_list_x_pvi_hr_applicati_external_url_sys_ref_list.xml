@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_pvi_hr_applicati_external_url" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>site_name</element>
+            <list_id display_value="x_pvi_hr_applicati_external_url" element="NULL" name="x_pvi_hr_applicati_external_url" parent="NULL" relationship="NULL" sys_domain="global" view="7e480be70fb23200da58715be1050ea5">c71458b70f1c0f40da58715be1050e0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-07 05:34:36</sys_created_on>
+            <sys_id>431458b70f1c0f40da58715be1050e0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-07 05:34:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>url</element>
+            <list_id display_value="x_pvi_hr_applicati_external_url" element="NULL" name="x_pvi_hr_applicati_external_url" parent="NULL" relationship="NULL" sys_domain="global" view="7e480be70fb23200da58715be1050ea5">c71458b70f1c0f40da58715be1050e0d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-07 05:34:36</sys_created_on>
+            <sys_id>c71458b70f1c0f40da58715be1050e0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-07 05:34:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_pvi_hr_applicati_external_url</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-07 05:34:36</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c71458b70f1c0f40da58715be1050e0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pvi_hr_applicati_external_url</sys_name>
+            <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+            <sys_update_name>sys_ui_list_x_pvi_hr_applicati_external_url_sys_ref_list</sys_update_name>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-07 05:34:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">7e480be70fb23200da58715be1050ea5</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

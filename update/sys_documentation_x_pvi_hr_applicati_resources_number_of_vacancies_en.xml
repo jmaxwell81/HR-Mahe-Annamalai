@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="number_of_vacancies" label="Total number of vacancies" language="en" table="x_pvi_hr_applicati_resources">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number_of_vacancies</element>
+            <help/>
+            <hint/>
+            <label>Total number of vacancies</label>
+            <language>en</language>
+            <name>x_pvi_hr_applicati_resources</name>
+            <plural>Total number of vacancies</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-07 09:49:30</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>a225edf10f7b3200189ef45be1050ed4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Total number of vacancies</sys_name>
+            <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+            <sys_update_name>sys_documentation_x_pvi_hr_applicati_resources_number_of_vacancies_en</sys_update_name>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-04 09:03:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

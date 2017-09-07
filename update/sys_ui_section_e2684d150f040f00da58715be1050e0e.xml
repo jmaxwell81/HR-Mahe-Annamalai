@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Interview2" section_id="e2684d150f040f00da58715be1050e0e" sys_domain="global" table="x_pvi_hr_applicati_interview" version="3" view="hr_recruitment">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interview2</element>
+            <position>0</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-18 06:14:18</sys_created_on>
+            <sys_id>156d11550f440f00da58715be1050e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interview2" display_value="Interview2" name="x_pvi_hr_applicati_interview" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">e2684d150f040f00da58715be1050e0e</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-18 06:14:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interview2_taken_by</element>
+            <position>1</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-18 06:14:18</sys_created_on>
+            <sys_id>956d11550f440f00da58715be1050e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interview2" display_value="Interview2" name="x_pvi_hr_applicati_interview" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">e2684d150f040f00da58715be1050e0e</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-18 06:14:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interview2_feedback</element>
+            <position>2</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-18 06:14:18</sys_created_on>
+            <sys_id>196d11550f440f00da58715be1050e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interview2" display_value="Interview2" name="x_pvi_hr_applicati_interview" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">e2684d150f040f00da58715be1050e0e</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-18 06:14:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-18 06:14:18</sys_created_on>
+            <sys_id>996d11550f440f00da58715be1050e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interview2" display_value="Interview2" name="x_pvi_hr_applicati_interview" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">e2684d150f040f00da58715be1050e0e</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-18 06:14:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interview2_start_time</element>
+            <position>4</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-18 06:14:18</sys_created_on>
+            <sys_id>1d6d11550f440f00da58715be1050e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interview2" display_value="Interview2" name="x_pvi_hr_applicati_interview" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">e2684d150f040f00da58715be1050e0e</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-18 06:14:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interview2_end_time</element>
+            <position>5</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-18 06:14:18</sys_created_on>
+            <sys_id>9d6d11550f440f00da58715be1050e01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interview2" display_value="Interview2" name="x_pvi_hr_applicati_interview" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">e2684d150f040f00da58715be1050e0e</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-18 06:14:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>interview2_result</element>
+            <position>6</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-18 06:14:18</sys_created_on>
+            <sys_id>116d11550f440f00da58715be1050e02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Interview2" display_value="Interview2" name="x_pvi_hr_applicati_interview" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">e2684d150f040f00da58715be1050e0e</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-18 06:14:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Interview2</caption>
+            <header>false</header>
+            <name>x_pvi_hr_applicati_interview</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>gopinath.k</sys_created_by>
+            <sys_created_on>2017-07-18 04:42:38</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2684d150f040f00da58715be1050e0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Interview2</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+            <sys_update_name>sys_ui_section_e2684d150f040f00da58715be1050e0e</sys_update_name>
+            <sys_updated_by>gopinath.k</sys_updated_by>
+            <sys_updated_on>2017-07-18 04:42:38</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="HR Recruitment" name="hr_recruitment">7bc7e9b20f373600da58715be1050e3b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

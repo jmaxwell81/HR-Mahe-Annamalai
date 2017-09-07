@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>project_details</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>flavian.a</sys_created_by>
+        <sys_created_on>2017-07-10 12:19:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cb24a5fa0fb33600189ef45be1050e1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>project_details</sys_name>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_cb24a5fa0fb33600189ef45be1050e1f</sys_update_name>
+        <sys_updated_by>flavian.a</sys_updated_by>
+        <sys_updated_on>2017-07-10 12:19:22</sys_updated_on>
+        <table>x_pvi_hr_applicati_management</table>
+        <ui_policy display_value="If project is not done yet means hide the detail fields">b3d3a1fa0fb33600189ef45be1050e5e</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

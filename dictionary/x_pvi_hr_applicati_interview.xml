@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Interview" max_length="40" name="x_pvi_hr_applicati_interview" sizeclass="14" type="collection">
+        <element label="Interview1" max_length="40" name="interview1" read_only="true" type="boolean"/>
+        <element label="Interview1 End Time" max_length="40" name="interview1_end_time" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Interview1 Feedback" max_length="1000" name="interview1_feedback" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Interview1 Result" max_length="40" name="interview1_result" read_only="true" type="string">
+            <choice>
+                <element label="Selected" sequence="0" value="1"/>
+                <element label="Rejected" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Interview1 Start Time" max_length="40" name="interview1_start_time" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Interview1 Taken By" max_length="40" name="interview1_taken_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Interview2" max_length="40" name="interview2" read_only="true" type="boolean"/>
+        <element label="Interview2 End Time" max_length="40" name="interview2_end_time" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Interview2 Feedback" max_length="1000" name="interview2_feedback" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Interview2 Result" max_length="40" name="interview2_result" read_only="true" type="string">
+            <choice>
+                <element label="Selected" sequence="0" value="1"/>
+                <element label="Rejected" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Interview2 Start Time" max_length="40" name="interview2_start_time" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Interview2 Taken By" max_length="40" name="interview2_taken_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Interview3" max_length="40" name="interview3" read_only="true" type="boolean"/>
+        <element label="Interview3 End Time" max_length="40" name="interview3_end_time" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Interview3 Feedback" max_length="4000" name="interview3_feedback" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Interview3 Result" max_length="40" name="interview3_result" read_only="true" type="string">
+            <choice>
+                <element label="Selected" sequence="0" value="1"/>
+                <element label="Rejected" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Interview3 Start Time" max_length="40" name="interview3_start_time" read_only="true" type="glide_date_time"/>
+        <element label="Interview3 Taken By" max_length="32" name="interview3_taken_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Interview End time" max_length="40" name="interview_end_time" type="glide_date_time"/>
+        <element label="Interview Feedback" max_length="6000" name="interview_feedback" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Interview Result" max_length="40" name="interview_result" type="string">
+            <choice>
+                <element label="Selected" sequence="0" value="1"/>
+                <element label="Rejected" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Interview Start time" max_length="40" name="interview_start_time" type="glide_date_time"/>
+        <element label="Referred Candidate Details" max_length="32" name="referred_candidate_details" reference="x_pvi_hr_applicati_referrals" type="reference"/>
+        <element label="Resource Details" max_length="32" name="resource_details" reference="x_pvi_hr_applicati_management" type="reference"/>
+        <element label="Resource Requested by" max_length="32" name="resource_requested_by" reference="sys_user" type="reference"/>
+        <element label="Selected For" max_length="32" name="selected_for" reference="x_pvi_hr_applicati_resources" type="reference"/>
+        <element choice="3" default="1" label="States" max_length="40" name="states" type="choice">
+            <choice>
+                <element label="Waiting" sequence="0" value="1"/>
+                <element label="Interview 1" sequence="1" value="2"/>
+                <element label="Interview 2" sequence="2" value="3"/>
+                <element label="Interview 3" sequence="3" value="4"/>
+                <element label="Resource Rejected" sequence="4" value="5"/>
+                <element label="Resource Selected" sequence="5" value="7"/>
+            </choice>
+        </element>
+    </element>
+</database>

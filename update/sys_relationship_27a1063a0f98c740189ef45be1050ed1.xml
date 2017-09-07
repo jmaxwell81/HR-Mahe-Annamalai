@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_pvi_hr_applicati_resources</basic_apply_to>
+        <basic_query_from>x_pvi_hr_applicati_referrals</basic_query_from>
+        <insert_callback/>
+        <name>Referred Candidates</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+current.addQuery('referred_for', parent.sys_id);
+	current.addQuery('states', 1);
+	
+})(current, parent);]]></query_with>
+        <reference_field>assigned_to</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>mahendran.e</sys_created_by>
+        <sys_created_on>2017-08-04 11:06:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>27a1063a0f98c740189ef45be1050ed1</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Referred Candidates</sys_name>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_relationship_27a1063a0f98c740189ef45be1050ed1</sys_update_name>
+        <sys_updated_by>mahendran.e</sys_updated_by>
+        <sys_updated_on>2017-08-11 06:39:30</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=27a1063a0f98c740189ef45be1050ed1"/>
+</record_update>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="d1ec48330f1c0f40da58715be1050ec8" sys_domain="global" table="x_pvi_hr_applicati_talent_pools" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>602fed0c0fac8b40189ef45be1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>e02fed0c0fac8b40189ef45be1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>2</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>642fed0c0fac8b40189ef45be1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_number</element>
+            <position>3</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>e42fed0c0fac8b40189ef45be1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>4</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>682fed0c0fac8b40189ef45be1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>5</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>e82fed0c0fac8b40189ef45be1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>6</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>6c2fed0c0fac8b40189ef45be1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>ec2fed0c0fac8b40189ef45be1050e90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>referred_for</element>
+            <position>8</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>602fed0c0fac8b40189ef45be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>referred_by</element>
+            <position>9</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>e02fed0c0fac8b40189ef45be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email_id</element>
+            <position>10</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>642fed0c0fac8b40189ef45be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>functional_skills</element>
+            <position>11</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>e42fed0c0fac8b40189ef45be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>technical_skills</element>
+            <position>12</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>682fed0c0fac8b40189ef45be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_done_before</element>
+            <position>13</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>e82fed0c0fac8b40189ef45be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passport</element>
+            <position>14</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>6c2fed0c0fac8b40189ef45be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visa</element>
+            <position>15</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>ec2fed0c0fac8b40189ef45be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_name</element>
+            <position>16</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>602fed0c0fac8b40189ef45be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>e02fed0c0fac8b40189ef45be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>18</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>642fed0c0fac8b40189ef45be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>19</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>e42fed0c0fac8b40189ef45be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>20</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-08 06:50:47</sys_created_on>
+            <sys_id>682fed0c0fac8b40189ef45be1050e92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_talent_pools" sys_domain="global" view="Default view">d1ec48330f1c0f40da58715be1050ec8</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-08 06:50:47</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_pvi_hr_applicati_talent_pools</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-08-07 05:03:05</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1ec48330f1c0f40da58715be1050ec8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pvi_hr_applicati_talent_pools</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+            <sys_update_name>sys_ui_section_d1ec48330f1c0f40da58715be1050ec8</sys_update_name>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-08-07 05:03:05</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

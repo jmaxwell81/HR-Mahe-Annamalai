@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="4fcf5dcc0f884b00da58715be1050e57" sys_domain="global" table="task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-07-14 09:12:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7cf5dcc0f884b00da58715be1050e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="task" name="task" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">4fcf5dcc0f884b00da58715be1050e57</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="task" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">77c7e9b20f373600da58715be1050e41</sys_ui_section>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-07-14 09:12:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>mahendran.e</sys_created_by>
+            <sys_created_on>2017-07-14 09:12:23</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fcf5dcc0f884b00da58715be1050e57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4fcf5dcc0f884b00da58715be1050e57</sys_update_name>
+            <sys_updated_by>mahendran.e</sys_updated_by>
+            <sys_updated_on>2017-07-14 09:12:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="HR Recruitment" name="hr_recruitment">7bc7e9b20f373600da58715be1050e3b</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

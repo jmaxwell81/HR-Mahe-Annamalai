@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="142ef0870f3b7600da58715be1050e22" sys_domain="global" table="x_pvi_hr_applicati_management" version="3" view="hr_recruitment">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>42ace7db0f7b7600189ef45be1050ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>c6ace7db0f7b7600189ef45be1050ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>2</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>4aace7db0f7b7600189ef45be1050ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_number</element>
+            <position>3</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>caace7db0f7b7600189ef45be1050ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>4</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>4eace7db0f7b7600189ef45be1050ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>5</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>ceace7db0f7b7600189ef45be1050ea9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>6</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>42ace7db0f7b7600189ef45be1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>c2ace7db0f7b7600189ef45be1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email_id</element>
+            <position>8</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>46ace7db0f7b7600189ef45be1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>function_skills</element>
+            <position>9</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>c6ace7db0f7b7600189ef45be1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>technical_skills</element>
+            <position>10</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>4aace7db0f7b7600189ef45be1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_done_before</element>
+            <position>11</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>caace7db0f7b7600189ef45be1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_details</element>
+            <position>12</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>4eace7db0f7b7600189ef45be1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>passport</element>
+            <position>13</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>ceace7db0f7b7600189ef45be1050eaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visa</element>
+            <position>14</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>42ace7db0f7b7600189ef45be1050eab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_name</element>
+            <position>15</position>
+            <sys_created_by>annamalai.b</sys_created_by>
+            <sys_created_on>2017-07-12 11:32:22</sys_created_on>
+            <sys_id>c2ace7db0f7b7600189ef45be1050eab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_pvi_hr_applicati_management" sys_domain="global" view="7bc7e9b20f373600da58715be1050e3b">142ef0870f3b7600da58715be1050e22</sys_ui_section>
+            <sys_updated_by>annamalai.b</sys_updated_by>
+            <sys_updated_on>2017-07-12 11:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_pvi_hr_applicati_management</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>flavian.a</sys_created_by>
+            <sys_created_on>2017-07-11 04:11:21</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>142ef0870f3b7600da58715be1050e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_pvi_hr_applicati_management</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+            <sys_update_name>sys_ui_section_142ef0870f3b7600da58715be1050e22</sys_update_name>
+            <sys_updated_by>flavian.a</sys_updated_by>
+            <sys_updated_on>2017-07-11 04:11:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="HR Recruitment" name="hr_recruitment">7bc7e9b20f373600da58715be1050e3b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

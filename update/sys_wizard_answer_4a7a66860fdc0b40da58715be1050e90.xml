@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Referrals</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Referrals</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">3c79836b0fb23200da58715be1050ebb</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>mahendran.e</sys_created_by>
+        <sys_created_on>2017-08-02 06:02:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4a7a66860fdc0b40da58715be1050e90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Referrals</sys_name>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_wizard_answer_4a7a66860fdc0b40da58715be1050e90</sys_update_name>
+        <sys_updated_by>mahendran.e</sys_updated_by>
+        <sys_updated_on>2017-08-02 06:02:11</sys_updated_on>
+        <table/>
+        <target_url>x_pvi_hr_applicati_referrals.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>selected_for</field>
+        <global>true</global>
+        <messages/>
+        <name>Selected for restriction</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+  if(newValue!=oldValue){
+	  var x = oldValue;
+	  //alert(x);
+	   g_form.setValue('selected_for', x);
+	 g_form.showFieldMsg('selected_for', 'you are not authorized to change this value' , 'error');
+	 
+	 
+  }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mahendran.e</sys_created_by>
+        <sys_created_on>2017-07-17 04:51:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8500cccd0f08cb00da58715be1050eb4</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Selected for restriction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_script_client_8500cccd0f08cb00da58715be1050eb4</sys_update_name>
+        <sys_updated_by>mahendran.e</sys_updated_by>
+        <sys_updated_on>2017-08-01 04:13:01</sys_updated_on>
+        <table>x_pvi_hr_applicati_interview</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

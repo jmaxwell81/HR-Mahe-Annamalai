@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" max_length="40" name="x_pvi_hr_applicati_resource_requirement_form" type="collection">
+        <element label="Certifications" max_length="40" name="certifications" type="boolean"/>
+        <element label="Dead Line" max_length="40" name="dead_line" type="glide_date"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="Experience(In Years)" max_length="40" name="experience_in_years" type="string"/>
+        <element label="Functional Skills" max_length="4000" name="functional_skills" type="glide_list"/>
+        <element label="Gender" max_length="40" name="gender" type="string"/>
+        <element label="Job Type" max_length="40" name="job_type" type="string"/>
+        <element label="Name of Certification" max_length="40" name="name_of_certification" type="string"/>
+        <element label="Onsite" max_length="40" name="onsite" type="boolean"/>
+        <element label="Other Skills" max_length="40" name="other_skills" type="string"/>
+        <element label="Passport" max_length="40" name="passport" type="boolean"/>
+        <element label="Passport Validity" max_length="40" name="passport_validity" type="glide_date"/>
+        <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Shift" max_length="40" name="shift" type="string"/>
+        <element label="Technical Skills" max_length="4000" name="technical_skills" type="glide_list"/>
+        <element label="Visa" max_length="40" name="visa" type="boolean"/>
+        <element label="Visa Type" max_length="40" name="visa_type" type="string"/>
+        <element label="Visa Validity" max_length="40" name="visa_validity" type="glide_date"/>
+    </element>
+</database>

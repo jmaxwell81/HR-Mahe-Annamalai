@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_pvi_hr_applicati_resources">states=5^EQ<item endquery="false" field="states" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Cancelled</label>
+        <name>Cancelled</name>
+        <order>60</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>annamalai.b</sys_created_by>
+        <sys_created_on>2017-07-07 11:34:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5d3db5f90ffb3200189ef45be1050ec7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cancelled</sys_name>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_process_flow_5d3db5f90ffb3200189ef45be1050ec7</sys_update_name>
+        <sys_updated_by>gopinath.k</sys_updated_by>
+        <sys_updated_on>2017-07-10 04:55:07</sys_updated_on>
+        <table>x_pvi_hr_applicati_resources</table>
+    </sys_process_flow>
+</record_update>

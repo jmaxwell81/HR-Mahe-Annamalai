@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Technical skills" max_length="40" name="x_pvi_hr_applicati_tech" type="collection">
+        <element display="true" label="Name of the skills" max_length="40" name="name_of_the_skills" type="string"/>
+    </element>
+</database>

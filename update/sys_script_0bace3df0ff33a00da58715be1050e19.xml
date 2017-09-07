@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>task</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>adding matched employee approvals</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr=new GlideRecord("x_pvi_hr_applicati_management");
+
+current.addQuery('sys_id',current.sys_id);
+
+gr.addQuery('experience_in_years', ">=" , current.parent.experience_in_years);
+var a = current.parent.function_skills.split(",");
+var b = a.length;
+for (var h = 0; h < b;h++){	
+	gr.addQuery('function_skills','CONTAINS', a[h]);}
+ var x = current.parent.technical_skills.split(",");
+ var z = x.length;
+ for (var i = 0; i < z;i++)
+ {
+	 
+      gr.addQuery('technical_skills','CONTAINS', x[i]);
+	 
+	}
+
+if(current.parent.passport == true)
+{
+	gr.addQuery('passport', current.parent.passport);
+}
+
+if(current.parent.visa == true)
+	{
+	gr.addQuery('visa', current.parent.visa);
+	}
+gr.query();
+while(gr.next()){
+	//var t = gr.user_name;
+	//gs.addErrorMessage(t);
+
+var Apcurrento =  new GlideRecord('sysapproval_approver');
+ 
+Apcurrento.source_table = 'task';
+//Apcurrento.apcurrentoval_column = 'apcurrentoval';
+//Apcurrento.apcurrentoval_history = 'apcurrentoval_history';
+//Apcurrento.sysapproval = "22143a0b0fb7b600da58715be1050e29";
+Apcurrento.approver = gr.user_name;
+Apcurrento.document_id = current.parent.sys_id;
+	//Apcurrento.sysapproval = current.parent.sys_id;
+Apcurrento.state = 'requested';
+	Apcurrento.comments='You Have been Shortlisted';
+	Apcurrento.insert();
+	gs.eventQueue("x_pvi_hr_applicati.shortlist",Apcurrento,gr.name, gr.email_id);
+
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mahendran.e</sys_created_by>
+        <sys_created_on>2017-07-12 11:40:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0bace3df0ff33a00da58715be1050e19</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>adding matched employee approvals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_script_0bace3df0ff33a00da58715be1050e19</sys_update_name>
+        <sys_updated_by>mahendran.e</sys_updated_by>
+        <sys_updated_on>2017-07-19 12:15:51</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=0bace3df0ff33a00da58715be1050e19"/>
+</record_update>

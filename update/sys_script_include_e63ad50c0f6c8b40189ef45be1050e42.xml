@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_pvi_hr_applicati.TalentPool</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TalentPool</name>
+        <script><![CDATA[var TalentPool = Class.create();
+TalentPool.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	Tm: function(){
+		var rff=this.getParameter('sysparm_rf');
+        var rbb=this.getParameter('sysparm_rb');
+		var numb=this.getParameter('sysparm_num');
+		var sysid=this.getParameter('sysparm_id');
+
+		
+		var t = new GlideRecord("x_pvi_hr_applicati_talent_pools");
+  	t.initialize();
+ 	    t.referred_for=rff;
+	    t.referred_by=rbb;
+		t.insert();
+		GlideSysAttachment.copy('x_pvi_hr_applicati_referrals', sysid, 'x_pvi_hr_applicati_talent_pools', t.getUniqueValue());
+		t.update();
+		gs.addInfoMessage("This record details are copied to talent pool, record number is:"+ t.number);
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>mahendran.e</sys_created_by>
+        <sys_created_on>2017-08-08 05:25:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e63ad50c0f6c8b40189ef45be1050e42</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>TalentPool</sys_name>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>sys_script_include_e63ad50c0f6c8b40189ef45be1050e42</sys_update_name>
+        <sys_updated_by>mahendran.e</sys_updated_by>
+        <sys_updated_on>2017-08-09 08:58:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

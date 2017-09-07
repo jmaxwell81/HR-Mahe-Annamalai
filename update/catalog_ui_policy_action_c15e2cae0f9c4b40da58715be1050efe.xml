@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Resource Request Form">e549783d0f773200189ef45be1050ea2</catalog_item>
+        <catalog_variable>IO:cdd785750fb73200189ef45be1050e2f</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>mahendran.e</sys_created_by>
+        <sys_created_on>2017-08-03 10:16:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c15e2cae0f9c4b40da58715be1050efe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>passport_validity</sys_name>
+        <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c15e2cae0f9c4b40da58715be1050efe</sys_update_name>
+        <sys_updated_by>mahendran.e</sys_updated_by>
+        <sys_updated_on>2017-08-03 10:16:45</sys_updated_on>
+        <table/>
+        <ui_policy display_value="onsite">e68285770f737a00da58715be1050e58</ui_policy>
+        <variable>passport_validity</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

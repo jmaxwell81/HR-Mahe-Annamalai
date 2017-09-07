@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="h2a" label="H2A" language="en" table="x_pvi_hr_applicati_resources">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>h2a</element>
+            <help/>
+            <hint/>
+            <label>H2A</label>
+            <language>en</language>
+            <name>x_pvi_hr_applicati_resources</name>
+            <plural>H2As</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>gopinath.k</sys_created_by>
+            <sys_created_on>2017-07-12 09:25:59</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>32bf879f0f333a00da58715be1050e3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>H2A</sys_name>
+            <sys_package display_value="HR Application" source="x_pvi_hr_applicati">4902f4390f773200189ef45be1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Application">4902f4390f773200189ef45be1050ef3</sys_scope>
+            <sys_update_name>sys_documentation_x_pvi_hr_applicati_resources_h2a_en</sys_update_name>
+            <sys_updated_by>gopinath.k</sys_updated_by>
+            <sys_updated_on>2017-07-12 09:25:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

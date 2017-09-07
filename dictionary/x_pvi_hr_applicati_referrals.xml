@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Referrals" max_length="40" name="x_pvi_hr_applicati_referrals" sizeclass="22" type="collection">
+        <element label="Referred By" max_length="32" name="referred_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Referred For" max_length="40" name="referred_for" read_only="true" reference="x_pvi_hr_applicati_resources" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="States" max_length="40" name="states" type="string">
+            <choice>
+                <element label="Waiting" sequence="1" value="1"/>
+                <element label="Start Interview" sequence="2" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>

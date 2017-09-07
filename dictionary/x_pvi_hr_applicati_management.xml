@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Resource Management" max_length="40" name="x_pvi_hr_applicati_management" sizeclass="7" type="collection">
+        <element label="Contact Number" max_length="40" name="contact_number" type="phone_number_e164"/>
+        <element label="Date Of Brith" max_length="40" name="date_of_brith" type="glide_date"/>
+        <element label="Email Id" max_length="40" name="email_id" type="email"/>
+        <element label="Experience(in years)" max_length="40" name="experience_in_years" type="integer"/>
+        <element label="Functional Skills" max_length="4000" name="function_skills" reference="x_pvi_hr_applicati_function" type="glide_list"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Passport" max_length="40" name="passport" type="boolean"/>
+        <element label="Project Details" max_length="1000" name="project_details" type="string"/>
+        <element label="Project Done Before" max_length="40" name="project_done_before" type="boolean"/>
+        <element label="Technical Skills" max_length="4000" name="technical_skills" reference="x_pvi_hr_applicati_tech" type="glide_list"/>
+        <element label="User Name" max_length="32" name="user_name" reference="sys_user" type="reference"/>
+        <element label="visa" max_length="40" name="visa" type="boolean"/>
+    </element>
+</database>
